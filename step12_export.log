@@ -1,0 +1,22 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --bfile step8_hwe_filter
+  --out step12_export
+  --recode ped
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 16:07:18 2018
+
+Random number seed: 1535324838
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+37438 variants loaded from .bim file.
+1060 people (508 males, 552 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1060 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.968406.
+37438 variants and 1060 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to step12_export.ped + step12_export.map ... done.
+
+End time: Sun Aug 26 16:07:19 2018

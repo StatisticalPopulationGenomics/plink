@@ -1,0 +1,26 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --bfile step8_hwe_filter
+  --ld-window 999999
+  --ld-window-kb 1000
+  --ld-window-r2 0.1
+  --out step11_r2_report
+  --r2 dprime
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 16:05:28 2018
+
+Random number seed: 1535324728
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+37438 variants loaded from .bim file.
+1060 people (508 males, 552 females) loaded from .fam.
+Using up to 8 threads (change this with --threads).
+Before main variant filters, 1060 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.968406.
+37438 variants and 1060 people pass filters and QC.
+Note: No phenotypes present.
+--r2 dprime... done.
+Results written to step11_r2_report.ld .
+
+End time: Sun Aug 26 16:05:34 2018
