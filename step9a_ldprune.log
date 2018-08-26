@@ -1,0 +1,21 @@
+PLINK v2.00a2 SSE4.2 (21 Aug 2018)
+Options in effect:
+  --bfile step8_hwe_filter
+  --indep-pairwise 200kb 1 0.5
+  --out step9a_ldprune
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:17:49 2018
+
+Random number seed: 1535321869
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 8 compute threads.
+1060 samples (552 females, 508 males; 1060 founders) loaded from
+step8_hwe_filter.fam.
+37438 variants loaded from step8_hwe_filter.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--indep-pairwise (2 compute threads): 33826/37438 variants removed.
+Variant lists written to step9a_ldprune.prune.in and step9a_ldprune.prune.out .
+
+End time: Sun Aug 26 15:17:49 2018

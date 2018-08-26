@@ -1,0 +1,26 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --bfile step8_hwe_filter
+  --extract step9a_ldprune.prune.in
+  --keep-allele-order
+  --make-bed
+  --out step9b_ldprune
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:18:36 2018
+
+Random number seed: 1535321916
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+37438 variants loaded from .bim file.
+1060 people (508 males, 552 females) loaded from .fam.
+--extract: 3612 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1060 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.960897.
+3612 variants and 1060 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to step9b_ldprune.bed + step9b_ldprune.bim + step9b_ldprune.fam ...
+done.
+
+End time: Sun Aug 26 15:18:36 2018

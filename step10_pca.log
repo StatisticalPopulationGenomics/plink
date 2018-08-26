@@ -1,0 +1,24 @@
+PLINK v2.00a2 SSE4.2 (26 Aug 2018)
+Options in effect:
+  --bfile step9b_ldprune
+  --out step10_pca
+  --pca 5
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:43:06 2018
+
+Random number seed: 1535323386
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 8 compute threads.
+1060 samples (552 females, 508 males; 1060 founders) loaded from
+step9b_ldprune.fam.
+3612 variants loaded from step9b_ldprune.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+Constructing GRM: done.
+Correcting for missingness... done.
+Extracting eigenvalues and eigenvectors... done.
+--pca: Eigenvectors written to step10_pca.eigenvec , and eigenvalues written to
+step10_pca.eigenval .
+
+End time: Sun Aug 26 15:43:06 2018
