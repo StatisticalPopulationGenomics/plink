@@ -1,0 +1,26 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --bfile step1_converted_data
+  --keep-allele-order
+  --make-bed
+  --out step2a_snps_only
+  --snps-only
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:07:49 2018
+
+Random number seed: 1535321269
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+234639 out of 245384 variants loaded from .bim file.
+1092 people (0 males, 0 females, 1092 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to step2a_snps_only.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1092 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.969914.
+234639 variants and 1092 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to step2a_snps_only.bed + step2a_snps_only.bim +
+step2a_snps_only.fam ... done.
+
+End time: Sun Aug 26 15:07:49 2018

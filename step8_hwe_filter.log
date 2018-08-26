@@ -1,0 +1,29 @@
+PLINK v2.00a2 SSE4.2 (21 Aug 2018)
+Options in effect:
+  --bfile step7_maf_filter
+  --hwe 1e-25 keep-fewhet
+  --make-bed
+  --out step8_hwe_filter
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:14:22 2018
+
+Random number seed: 1535321662
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 8 compute threads.
+1060 samples (552 females, 508 males; 1060 founders) loaded from
+step7_maf_filter.fam.
+37440 variants loaded from step7_maf_filter.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+Warning: --hwe observation counts vary by more than 10%.  Consider using
+--geno, and/or applying different p-value thresholds to distinct subsets of
+your data.
+--hwe keep-fewhet: 2 variants removed due to Hardy-Weinberg exact test
+(founders only).
+37438 variants remaining after main filters.
+Writing step8_hwe_filter.bed ... done.
+Writing step8_hwe_filter.bim ... done.
+Writing step8_hwe_filter.fam ... done.
+
+End time: Sun Aug 26 15:14:22 2018

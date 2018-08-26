@@ -1,0 +1,27 @@
+PLINK v2.00a2 SSE4.2 (21 Aug 2018)
+Options in effect:
+  --bfile step3_missing_filter
+  --king-cutoff 0.177
+  --make-bed
+  --out step4_relprune
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 14:54:19 2018
+
+Random number seed: 1535320459
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 8 compute threads.
+1092 samples (567 females, 525 males; 1092 founders) loaded from
+step3_missing_filter.fam.
+230700 variants loaded from step3_missing_filter.bim.
+Note: No phenotype data present.
+--king-cutoff: Scanning for singletons and monomorphic variants... done.
+22257 variants handled by initial scan.
+--king-cutoff: 208443 variants processed.
+--king-cutoff: Excluded sample IDs written to step4_relprune.king.cutoff.out.id
+, and 1060 remaining sample IDs written to step4_relprune.king.cutoff.in.id .
+Writing step4_relprune.bed ... done.
+Writing step4_relprune.bim ... done.
+Writing step4_relprune.fam ... done.
+
+End time: Sun Aug 26 14:54:21 2018

@@ -1,0 +1,28 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --bfile step3_add_sex
+  --geno 0.1
+  --keep-allele-order
+  --make-bed
+  --mind 0.1
+  --out step4_missing_filter
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:10:30 2018
+
+Random number seed: 1535321430
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+234639 variants loaded from .bim file.
+1092 people (525 males, 567 females) loaded from .fam.
+0 people removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1092 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.969914.
+10628 variants removed due to missing genotype data (--geno).
+224011 variants and 1092 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to step4_missing_filter.bed + step4_missing_filter.bim +
+step4_missing_filter.fam ... done.
+
+End time: Sun Aug 26 15:10:30 2018

@@ -1,0 +1,22 @@
+PLINK v2.00a2 SSE4.2 (21 Aug 2018)
+Options in effect:
+  --bfile step5_relprune
+  --freq alt1bins=0.01,0.02,0.03,0.04,0.05,0.1,0.2,0.3,0.4
+  --out step6b_freq_spectrum
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 15:12:51 2018
+
+Random number seed: 1535321571
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 8 compute threads.
+1060 samples (552 females, 508 males; 1060 founders) loaded from
+step5_relprune.fam.
+224011 variants loaded from step5_relprune.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--freq: Allele frequencies (founders only) written to
+step6b_freq_spectrum.afreq .
+--freq alt1bins=: Histogram written to step6b_freq_spectrum.afreq.alt1.bins .
+
+End time: Sun Aug 26 15:12:51 2018

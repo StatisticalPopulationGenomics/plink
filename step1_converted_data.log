@@ -1,0 +1,28 @@
+PLINK v1.90p 64-bit (7 Aug 2018)
+Options in effect:
+  --const-fid 0
+  --keep-allele-order
+  --make-bed
+  --out step1_converted_data
+  --vcf chr21_phase1_subset.vcf.gz
+
+Working directory: /Users/chrchang/statpopgen/plink
+Start time: Sun Aug 26 14:47:00 2018
+
+Random number seed: 1535320020
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+--vcf: step1_converted_data-temporary.bed + step1_converted_data-temporary.bim
++ step1_converted_data-temporary.fam written.
+245384 variants loaded from .bim file.
+1092 people (0 males, 0 females, 1092 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to step1_converted_data.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1092 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.964756.
+245384 variants and 1092 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to step1_converted_data.bed + step1_converted_data.bim +
+step1_converted_data.fam ... done.
+
+End time: Sun Aug 26 14:47:05 2018
